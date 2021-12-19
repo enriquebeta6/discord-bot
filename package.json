@@ -1,7 +1,7 @@
 {
   "name": "toys-legend-discord-bot",
   "version": "0.0.1",
-  "main": "src/client.ts",
+  "main": "src/index.ts",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^17.0.0",
