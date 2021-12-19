@@ -14,33 +14,36 @@
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
 
     /* Language and Environment */
-    "target": "es2021",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "target": "es2021" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
     /* Modules */
-    "module": "commonjs",                                /* Specify what module code is generated. */
-    "rootDir": "./src",                                  /* Specify the root folder within your source files. */
-    "resolveJsonModule": true,                        /* Enable importing .json files */
+    "module": "commonjs" /* Specify what module code is generated. */,
+    "rootDir": "./src" /* Specify the root folder within your source files. */,
+    "resolveJsonModule": true /* Enable importing .json files */,
 
-    "outDir": "./build",                                   /* Specify an output folder for all emitted files. */
-    "removeComments": true,                           /* Disable emitting comments. */
-    "importHelpers": true,                            /* Allow importing helper functions from tslib once per project, instead of including them per-file. */
-    "newLine": "crlf",                                /* Set the newline character for emitting files. */
-    "lib": ["es2021"],                       /* Specify library files to be included in the compilation. */
+    "outDir": "./build" /* Specify an output folder for all emitted files. */,
+    "removeComments": true /* Disable emitting comments. */,
+    "importHelpers": true /* Allow importing helper functions from tslib once per project, instead of including them per-file. */,
+    "newLine": "crlf" /* Set the newline character for emitting files. */,
+    "lib": [
+      "es2021"
+    ] /* Specify library files to be included in the compilation. */,
     /* Interop Constraints */
-    "isolatedModules": true,                          /* Ensure that each file can be safely transpiled without relying on other imports. */
-    "allowSyntheticDefaultImports": true,             /* Allow 'import x from y' when a module doesn't have a default export. */
-    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables `allowSyntheticDefaultImports` for type compatibility. */
-    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+    "isolatedModules": true /* Ensure that each file can be safely transpiled without relying on other imports. */,
+    "allowSyntheticDefaultImports": true /* Allow 'import x from y' when a module doesn't have a default export. */,
+    "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables `allowSyntheticDefaultImports` for type compatibility. */,
+    "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
 
     /* Type Checking */
-    "strict": true,                                      /* Enable all strict type-checking options. */
-    "noImplicitAny": true,                            /* Enable error reporting for expressions and declarations with an implied `any` type.. */
-    "strictNullChecks": true,                         /* When type checking, take into account `null` and `undefined`. */
-    "noImplicitThis": true,                           /* Enable error reporting when `this` is given the type `any`. */
-    "useUnknownInCatchVariables": true,               /* Type catch clause variables as 'unknown' instead of 'any'. */
-    "alwaysStrict": true,                             /* Ensure 'use strict' is always emitted. */
-    "noUnusedLocals": true,                           /* Enable error reporting when a local variables aren't read. */
-    "noUnusedParameters": true,                       /* Raise an error when a function parameter isn't read */
-    "noImplicitReturns": true,                        /* Enable error reporting for codepaths that do not explicitly return in a function. */
-    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
-  }
+    "strict": true /* Enable all strict type-checking options. */,
+    "noImplicitAny": true /* Enable error reporting for expressions and declarations with an implied `any` type.. */,
+    "strictNullChecks": true /* When type checking, take into account `null` and `undefined`. */,
+    "noImplicitThis": true /* Enable error reporting when `this` is given the type `any`. */,
+    "useUnknownInCatchVariables": true /* Type catch clause variables as 'unknown' instead of 'any'. */,
+    "alwaysStrict": true /* Ensure 'use strict' is always emitted. */,
+    "noUnusedLocals": true /* Enable error reporting when a local variables aren't read. */,
+    "noUnusedParameters": true /* Raise an error when a function parameter isn't read */,
+    "noImplicitReturns": true /* Enable error reporting for codepaths that do not explicitly return in a function. */,
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */
+  },
+  "include": ["src/typings/*.d.ts"]
 }
