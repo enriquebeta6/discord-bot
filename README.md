@@ -1,4 +1,13 @@
-# Toys Legend Discord Bot
+<div align="center">
+  <img
+    width="200"
+    alt="Toys Legend Logo"
+    src="https://github.com/toyslegend/discord-bot/blob/main/assets/logo.png?raw=true"
+  />
+  
+  ## Toys Legend Discord Bot
+</div>
+<br>
 
 ## 💻 Prerequisites
 
