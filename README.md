@@ -4,8 +4,9 @@
     alt="Toys Legend Logo"
     src="https://github.com/toyslegend/discord-bot/blob/main/assets/logo.png?raw=true"
   />
-  
-  ## Toys Legend Discord Bot
+
+## Toys Legend Discord Bot
+
 </div>
 <br>
 
@@ -70,7 +71,7 @@ We are grateful to the following people who contributed to this project:
 <table>
   <tr>
     <td align="center">
-      <a href="#">
+      <a href="https://github.com/enriquebeta6">
         <img src="https://avatars.githubusercontent.com/u/22513684?v=4" width="100px;" alt="Imagem do Enrique Mora no Github"/><br>
         <sub>
           <b>Enrique Mora</b>
