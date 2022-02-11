@@ -20,6 +20,12 @@ export default {
   async execute(interaction: CommandInteractionWithClientWithCommands) {
     const address = interaction.options.getString('address');
 
+    if (!address) {
+      await interaction.reply('You need to provide an address!');
+
+      return;
+    }
+
     const result = await toysLegendDonation.isDonator(address);
 
     const replyMessage = result ? `You're a donor` : `You aren't a donor`;

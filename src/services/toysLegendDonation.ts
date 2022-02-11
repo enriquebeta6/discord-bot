@@ -8,7 +8,7 @@ import { ToysLegendDonation } from './../typings/ToysLegendDonation.d';
 import { getProvider } from '../provider';
 
 // Contract
-import { abi, address } from '../contracts/toysLegendDonation';
+import { abi, address } from '../contracts/ToysLegendDonation';
 
 export const toysLegendDonation = new ethers.Contract(
   address,

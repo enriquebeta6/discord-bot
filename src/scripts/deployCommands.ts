@@ -12,7 +12,7 @@ async function main() {
   const commands = await getCommands();
   const commandsArray = commands.map((command) => command.data.toJSON());
 
-  const { TOKEN, CLIENT_ID, GUILD_ID } = process.env;
+  const { TOKEN = '', CLIENT_ID = '', GUILD_ID = '' } = process.env;
 
   const rest = new REST({ version: '9' }).setToken(TOKEN);
 

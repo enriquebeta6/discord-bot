@@ -1,5 +1,5 @@
 // Dependencies
-import dotenv from 'dotenv';
+import * as dotenv from 'dotenv';
 import { Client, Intents } from 'discord.js';
 
 // Typings

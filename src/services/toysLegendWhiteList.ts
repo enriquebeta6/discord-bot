@@ -8,7 +8,7 @@ import { ToysLegendWhiteList } from './../typings/ToysLegendWhiteList';
 import { getProvider } from '../provider';
 
 // Contract
-import { abi, address } from '../contracts/toysLegendWhiteList';
+import { abi, address } from '../contracts/ToysLegendWhiteList';
 
 export const toysLegendWhiteList = new ethers.Contract(
   address,

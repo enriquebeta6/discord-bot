@@ -1,10 +1,7 @@
 // Dependencies
-import {
-  Client,
-  Collection,
-  CommandInteraction,
-  SlashCommandBuilder,
-} from 'discord.js';
+import { SlashCommandBuilder } from '@discordjs/builders';
+
+import { Client, Collection, CommandInteraction } from 'discord.js';
 
 export interface Command {
   data: SlashCommandBuilder;

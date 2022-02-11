@@ -10,8 +10,8 @@ export default {
     .setDescription('Replies with all project contracts!'),
   async execute(interaction: CommandInteractionWithClientWithCommands) {
     const {
-      TOYS_LEGEND_DONATION_CONTRACT_ADDRESS,
-      TOYS_LEGEND_WHITE_LIST_CONTRACT_ADDRESS,
+      TOYS_LEGEND_DONATION_CONTRACT_ADDRESS = '',
+      TOYS_LEGEND_WHITE_LIST_CONTRACT_ADDRESS = '',
     } = process.env;
 
     const whitelist = hyperlink(
