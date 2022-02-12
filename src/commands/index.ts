@@ -7,7 +7,7 @@ import { Collection } from 'discord.js';
 // Typings
 import { Command } from '../typings/discord.d';
 
-const excludeFiles = ['index.ts', 'index.js'];
+const excludeFiles = ['index.ts', 'index.js', 'contracts.ts', 'contracts.js'];
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
